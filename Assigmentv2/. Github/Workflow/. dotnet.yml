@@ -1,1 +1,269 @@
+# Weaver CyberSecurity Awareness Bot
+
+## Overview
+
+The **Weaver CyberSecurity Awareness Bot** is a C# console application designed to educate users on basic cybersecurity practices such as password safety, phishing awareness, and safe browsing.
+
+This project demonstrates modular programming, user interaction, and decision-making using simple chatbot logic.
+
+---
+
+## How the Program Works (Step-by-Step)
+
+---
+
+### 1. Entry Point (`Program.cs`)
+
+This is where everything begins. It controls the full workflow of the application.
+
+```csharp
+using CyberSecurityChatbot;
+using System;
+using WeaverSecurityChatbot;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Clear(); // Clears console for clean UI
+
+        VoiceGreeting.PlayGreeting(); // Plays audio greeting
+
+        AsciiArt.ShowLogo(); // Displays ASCII logo
+
+        string name = UserInteraction.AskName(); // Gets user name
+
+        UserInteraction.WelcomeUser(name); // Welcomes user
+
+        ChatBot bot = new ChatBot(); // Create chatbot object
+        bot.StartChat(name); // Start chatbot loop
+    }
+}
+```
+
+**Explanation:**
+
+* Controls the sequence of execution
+* Connects all other classes together
+* Acts as the central controller of the application
+
+---
+
+### 2. Audio Greeting (`VoiceGreeting.cs`)
+
+Plays a welcome sound when the program starts.
+
+```csharp
+using System;
+using System.IO;
+using System.Media;
+
+namespace CyberSecurityChatbot
+{
+    public class VoiceGreeting
+    {
+        public static void PlayGreeting()
+        {
+            try
+            {
+                string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Audio", "ttsmp3_1773313990040.wav");
+
+                SoundPlayer player = new SoundPlayer(path);
+                player.PlaySync(); // Plays audio synchronously
+            }
+            catch
+            {
+                Console.WriteLine("Audio greeting could not be played.");
+            }
+        }
+    }
+}
+```
+
+**Explanation:**
+
+* Loads `.wav` file from the project directory
+* Uses `SoundPlayer` to play audio
+* Includes error handling if file is missing
+
+---
+
+### 3. ASCII Logo (`AsciiArt.cs`)
+
+Displays a styled banner in the console.
+
+```csharp
+using System;
+
+namespace CyberSecurityChatbot
+{
+    public class AsciiArt
+    {
+        public static void ShowLogo()
+        {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+
+            Console.WriteLine(@"
+=======================================
+      WEAVER AWARENESS BOT
+=======================================
+
+        STAY SAFE ONLINE
+...
+=======================================
+");
+            Console.ResetColor();
+        }
+    }
+}
+```
+
+**Explanation:**
+
+* Uses ASCII art for visual branding
+* Changes console color for better UI
+
+---
+
+### 4. User Interaction (`UserInteraction.cs`)
+
+Handles user input and validation.
+
+```csharp
+using System;
+
+namespace CyberSecurityChatbot
+{
+    public class UserInteraction
+    {
+        public static string AskName()
+        {
+            Console.Write("Enter your name: ");
+            string name = Console.ReadLine();
+
+            while (string.IsNullOrWhiteSpace(name))
+            {
+                Console.Write("Name cannot be empty. Please enter your name: ");
+                name = Console.ReadLine();
+            }
+
+            return name;
+        }
+
+        public static void WelcomeUser(string name)
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"\nWelcome {name}!");
+            Console.WriteLine("I am the Weaversecurity Awareness Bot.");
+            Console.WriteLine("You can ask me about passwords, phishing, and safe browsing.");
+            Console.ResetColor();
+        }
+    }
+}
+```
+
+**Explanation:**
+
+* Ensures user enters valid input
+* Personalizes experience using their name
+
+---
+
+### 5. Chatbot Logic (`ChatBot.cs`)
+
+This is the core of your chatbot.
+
+```csharp
+using System;
+
+namespace WeaverSecurityChatbot
+{
+    public class ChatBot
+    {
+        public void StartChat(string name)
+        {
+            while (true) // Infinite loop until exit
+            {
+                Console.Write("\nAsk a question (type 'exit' to quit): ");
+                string input = Console.ReadLine().ToLower();
+
+                if (string.IsNullOrWhiteSpace(input))
+                {
+                    Console.WriteLine("Please enter a valid question.");
+                }
+                else if (input.Contains("how are you"))
+                {
+                    Console.WriteLine("I'm running smoothly and ready to help!");
+                }
+                else if (input.Contains("purpose"))
+                {
+                    Console.WriteLine("My purpose is to help you understand cybersecurity.");
+                }
+                else if (input.Contains("password"))
+                {
+                    Console.WriteLine("Use strong passwords with numbers, symbols, and uppercase letters.");
+                }
+                else if (input.Contains("phishing"))
+                {
+                    Console.WriteLine("Phishing is when attackers trick you into giving personal information through fake emails or websites.");
+                }
+                else if (input.Contains("safe browsing"))
+                {
+                    Console.WriteLine("Always check website URLs and avoid clicking suspicious links.");
+                }
+                else if (input.Contains("exit"))
+                {
+                    Console.WriteLine($"Goodbye {name}! Stay safe online.");
+                    break; // Exit loop
+                }
+                else
+                {
+                    Console.WriteLine("I didn't quite understand that. Could you rephrase?");
+                }
+            }
+        }
+    }
+}
+```
+
+**Explanation:**
+
+* Uses a loop to keep conversation running
+* Converts input to lowercase for easier matching
+* Uses if-else for keyword detection
+* Ends when user types "exit"
+
+---
+
+## System Flow Summary
+
+* Start program
+* Play greeting
+* Show logo
+* Get user name
+* Welcome user
+* Enter chatbot loop
+* Process input → respond → repeat
+* Exit on command
+
+---
+
+## Future Improvements
+
+* Replace if-else with a dictionary or NLP logic
+* Add more cybersecurity topics
+* Build a graphical interface (GUI)
+* Add voice input/output
+
+---
+
+## Author
+
+Developed as part of a cybersecurity and programming assignment.
+
+---
+
+## License
+
+For educational use.
 
