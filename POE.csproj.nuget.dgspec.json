@@ -1,0 +1,80 @@
+﻿using System;
+
+namespace POE
+{
+    public class ChatBot
+    {
+        Random rand = new Random();
+
+        string[] passwordTips =
+        {
+            "Use a password with at least 12 characters.",
+            "Avoid using personal information in your passwords.",
+            "Use a password manager to generate strong passwords."
+        };
+
+        string[] phishingTips =
+        {
+            "Be cautious of emails asking for personal information.",
+            "Always check the sender before clicking links.",
+            "Banks will never ask for passwords through email."
+        };
+
+        string[] privacyTips =
+        {
+            "Review your social media privacy settings regularly.",
+            "Avoid sharing personal information publicly.",
+            "Enable two-factor authentication whenever possible."
+        };
+
+        string[] scamTips =
+        {
+            "Never send money to someone you do not know.",
+            "Scammers often pretend to be banks or companies.",
+            "Always verify suspicious messages before responding."
+        };
+
+        public string GetResponse(string input, string name)
+        {
+            input = input.ToLower();
+
+            if (string.IsNullOrWhiteSpace(input))
+                return "Please enter a valid question.";
+
+            if (input.Contains("exit"))
+                return $"Goodbye {name}! Stay safe online.";
+
+            if (input.Contains("worried"))
+                return scamTips[rand.Next(scamTips.Length)];
+
+            if (input.Contains("curious"))
+                return privacyTips[rand.Next(privacyTips.Length)];
+
+            if (input.Contains("frustrated"))
+                return passwordTips[rand.Next(passwordTips.Length)];
+
+            if (input.Contains("password"))
+                return passwordTips[rand.Next(passwordTips.Length)];
+
+            if (input.Contains("phishing"))
+                return phishingTips[rand.Next(phishingTips.Length)];
+
+            if (input.Contains("privacy"))
+                return privacyTips[rand.Next(privacyTips.Length)];
+
+            if (input.Contains("scam"))
+                return scamTips[rand.Next(scamTips.Length)];
+
+            if (input.Contains("how are you"))
+                return "I'm running smoothly and ready to help!";
+
+            if (input.Contains("purpose"))
+                return "My purpose is to help you stay safe online.";
+
+            if (input.Contains("safe browsing"))
+                return "Always check website URLs and avoid suspicious links.";
+
+            return "I'm not sure I understand. Try rephrasing.";
+        }
+    }
+}

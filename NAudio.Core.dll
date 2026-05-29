@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Student\\source\\repos\\POE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C8A423-B330-484A-8F3A-1350CA2C00C1}|POE\\POE.csproj|c:\\users\\student\\source\\repos\\poe\\poe\\voicegreet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0C8A423-B330-484A-8F3A-1350CA2C00C1}|POE\\POE.csproj|solutionrelative:poe\\voicegreet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C8A423-B330-484A-8F3A-1350CA2C00C1}|POE\\POE.csproj|c:\\users\\student\\source\\repos\\poe\\poe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0C8A423-B330-484A-8F3A-1350CA2C00C1}|POE\\POE.csproj|solutionrelative:poe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C8A423-B330-484A-8F3A-1350CA2C00C1}|POE\\POE.csproj|c:\\users\\student\\source\\repos\\poe\\poe\\userinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0C8A423-B330-484A-8F3A-1350CA2C00C1}|POE\\POE.csproj|solutionrelative:poe\\userinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C8A423-B330-484A-8F3A-1350CA2C00C1}|POE\\POE.csproj|c:\\users\\student\\source\\repos\\poe\\poe\\logo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0C8A423-B330-484A-8F3A-1350CA2C00C1}|POE\\POE.csproj|solutionrelative:poe\\logo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C8A423-B330-484A-8F3A-1350CA2C00C1}|POE\\POE.csproj|c:\\users\\student\\source\\repos\\poe\\poe\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0C8A423-B330-484A-8F3A-1350CA2C00C1}|POE\\POE.csproj|solutionrelative:poe\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "chatbot.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\POE\\POE\\chatbot.cs",
+              "RelativeDocumentMoniker": "POE\\chatbot.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\POE\\POE\\chatbot.cs",
+              "RelativeToolTip": "POE\\chatbot.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAkwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T15:30:50.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Voicegreet.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\POE\\POE\\Voicegreet.cs",
+              "RelativeDocumentMoniker": "POE\\Voicegreet.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\POE\\POE\\Voicegreet.cs",
+              "RelativeToolTip": "POE\\Voicegreet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T15:30:29.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Logo.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\POE\\POE\\Logo.cs",
+              "RelativeDocumentMoniker": "POE\\Logo.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\POE\\POE\\Logo.cs",
+              "RelativeToolTip": "POE\\Logo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T15:28:32.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Userinteraction.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\POE\\POE\\Userinteraction.cs",
+              "RelativeDocumentMoniker": "POE\\Userinteraction.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\POE\\POE\\Userinteraction.cs",
+              "RelativeToolTip": "POE\\Userinteraction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T15:28:15.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\POE\\POE\\Program.cs",
+              "RelativeDocumentMoniker": "POE\\Program.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\POE\\POE\\Program.cs",
+              "RelativeToolTip": "POE\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T15:27:44.038Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
