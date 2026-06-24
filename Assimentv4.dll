@@ -1,0 +1,188 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Student\\Desktop\\Assimentv4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1BAAC4-4F62-C730-93C5-A28D24371B5B}|Assimentv4.csproj|c:\\users\\student\\desktop\\assimentv4\\program\\nlpproccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B1BAAC4-4F62-C730-93C5-A28D24371B5B}|Assimentv4.csproj|solutionrelative:program\\nlpproccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1BAAC4-4F62-C730-93C5-A28D24371B5B}|Assimentv4.csproj|c:\\users\\student\\desktop\\assimentv4\\task\\taskmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B1BAAC4-4F62-C730-93C5-A28D24371B5B}|Assimentv4.csproj|solutionrelative:task\\taskmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1BAAC4-4F62-C730-93C5-A28D24371B5B}|Assimentv4.csproj|c:\\users\\student\\desktop\\assimentv4\\database\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B1BAAC4-4F62-C730-93C5-A28D24371B5B}|Assimentv4.csproj|solutionrelative:database\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1BAAC4-4F62-C730-93C5-A28D24371B5B}|Assimentv4.csproj|c:\\users\\student\\desktop\\assimentv4\\task\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B1BAAC4-4F62-C730-93C5-A28D24371B5B}|Assimentv4.csproj|solutionrelative:task\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1BAAC4-4F62-C730-93C5-A28D24371B5B}|Assimentv4.csproj|c:\\users\\student\\desktop\\assimentv4\\service\\voicegreet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B1BAAC4-4F62-C730-93C5-A28D24371B5B}|Assimentv4.csproj|solutionrelative:service\\voicegreet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1BAAC4-4F62-C730-93C5-A28D24371B5B}|Assimentv4.csproj|c:\\users\\student\\desktop\\assimentv4\\service\\activitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B1BAAC4-4F62-C730-93C5-A28D24371B5B}|Assimentv4.csproj|solutionrelative:service\\activitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1BAAC4-4F62-C730-93C5-A28D24371B5B}|Assimentv4.csproj|c:\\users\\student\\desktop\\assimentv4\\quiz\\quizgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B1BAAC4-4F62-C730-93C5-A28D24371B5B}|Assimentv4.csproj|solutionrelative:quiz\\quizgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1BAAC4-4F62-C730-93C5-A28D24371B5B}|Assimentv4.csproj|c:\\users\\student\\desktop\\assimentv4\\quiz\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B1BAAC4-4F62-C730-93C5-A28D24371B5B}|Assimentv4.csproj|solutionrelative:quiz\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1BAAC4-4F62-C730-93C5-A28D24371B5B}|Assimentv4.csproj|c:\\users\\student\\desktop\\assimentv4\\chatbot\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B1BAAC4-4F62-C730-93C5-A28D24371B5B}|Assimentv4.csproj|solutionrelative:chatbot\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1BAAC4-4F62-C730-93C5-A28D24371B5B}|Assimentv4.csproj|c:\\users\\student\\desktop\\assimentv4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B1BAAC4-4F62-C730-93C5-A28D24371B5B}|Assimentv4.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Voicegreet.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Assimentv4\\Service\\Voicegreet.cs",
+              "RelativeDocumentMoniker": "Service\\Voicegreet.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Assimentv4\\Service\\Voicegreet.cs",
+              "RelativeToolTip": "Service\\Voicegreet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T13:20:00.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ActivityLog.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Assimentv4\\Service\\ActivityLog.cs",
+              "RelativeDocumentMoniker": "Service\\ActivityLog.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Assimentv4\\Service\\ActivityLog.cs",
+              "RelativeToolTip": "Service\\ActivityLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T13:19:55.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QuizGame.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Assimentv4\\Quiz\\QuizGame.cs",
+              "RelativeDocumentMoniker": "Quiz\\QuizGame.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Assimentv4\\Quiz\\QuizGame.cs",
+              "RelativeToolTip": "Quiz\\QuizGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T13:19:36.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Assimentv4\\Quiz\\Question.cs",
+              "RelativeDocumentMoniker": "Quiz\\Question.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Assimentv4\\Quiz\\Question.cs",
+              "RelativeToolTip": "Quiz\\Question.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T13:19:27.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NLpproccess.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Assimentv4\\program\\NLpproccess.cs",
+              "RelativeDocumentMoniker": "program\\NLpproccess.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Assimentv4\\program\\NLpproccess.cs",
+              "RelativeToolTip": "program\\NLpproccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T13:19:23.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Taskmanger.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Assimentv4\\Task\\Taskmanger.cs",
+              "RelativeDocumentMoniker": "Task\\Taskmanger.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Assimentv4\\Task\\Taskmanger.cs",
+              "RelativeToolTip": "Task\\Taskmanger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T11:30:41.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Taskitem.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Assimentv4\\Task\\Taskitem.cs",
+              "RelativeDocumentMoniker": "Task\\Taskitem.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Assimentv4\\Task\\Taskitem.cs",
+              "RelativeToolTip": "Task\\Taskitem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T11:30:37.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Assimentv4\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Assimentv4\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T18:52:54.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Assimentv4\\Database\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "Database\\DatabaseHelper.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Assimentv4\\Database\\DatabaseHelper.cs",
+              "RelativeToolTip": "Database\\DatabaseHelper.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwAkAAACPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T18:05:24.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Chatbot.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Assimentv4\\ChatBot\\Chatbot.cs",
+              "RelativeDocumentMoniker": "ChatBot\\Chatbot.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Assimentv4\\ChatBot\\Chatbot.cs",
+              "RelativeToolTip": "ChatBot\\Chatbot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T11:31:02.883Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
